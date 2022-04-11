@@ -1,0 +1,27 @@
+<article>
+  <h1>{{{name}}}</h1>
+  <img src="{{img}}" />
+  <dl>
+    <dt>Language</dt>
+    <dd>{{{language}}}</dd>
+    <dt>Genres</dt>
+    <dd>
+      {{#if genres.length}}
+        <ul>
+          {{#each genres}}
+            <li>{{{this}}}</li>
+          {{/each}}
+        </ul>
+      {{else}}
+        N/A
+      {{/if}}
+    </dd>
+    <dt>Average Rating</dt>
+    <dd>{{{rating}}}</dd>
+    <dt>Network</dt>
+    <dd>{{{network}}}</dd>
+    <dt>Summary</dt>
+    <dd>{{{summary}}}</dd>
+  </dl>
+  <a href="/">Make another search</a>
+</article>

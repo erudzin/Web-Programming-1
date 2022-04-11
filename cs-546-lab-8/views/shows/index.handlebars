@@ -1,0 +1,20 @@
+<article>
+  <h1>{{title}}</h1>
+  <p>Hello! Welcome to Show Finder! This website allows you to search for TV
+    shows through the TV Maze API. You can either enter a search term and it
+    will match you with its top results! Isn't that cool?
+  </p>
+  <form action="/searchshows" method="POST" class="new-search-form">
+    <label for="search-box">
+      Please enter your search term.
+    </label>
+    <input
+      id="search-box"
+      type="text"
+      name="showSearchTerm"
+      placeholder="Search Term"
+      class="full-width-input"
+    />
+    <button type="submit">Submit</button>
+  </form>
+</article>

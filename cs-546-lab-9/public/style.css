@@ -1,0 +1,65 @@
+body {
+  height: 100%;
+  position: relative;
+}
+.websiteBody {
+  min-height: 85vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 15vh;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+header {
+  margin-top: 5%;
+  text-align: center;
+}
+
+input,
+label {
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+}
+form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.is-prime {
+  color: #00e676;
+}
+
+.not-prime {
+  color: #ff3d00;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin: 5px;
+}

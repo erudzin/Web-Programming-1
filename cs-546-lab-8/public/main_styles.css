@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  background-color: lightgray;
+}
+h1 {
+  color: maroon;
+  font-size: 48pt;
+  text-align: center;
+}
+
+h2 {
+  color: maroon;
+  font-size: 32pt;
+  margin: 0;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  background-color: #f0c5cc;
+  border-radius: 5px;
+}
+button {
+  background-color: white;
+  border-radius: 5px;
+}
+label {
+  font-size: 24px;
+  color: maroon;
+}
+
+a {
+  color: darkcyan;
+  text-decoration: none;
+  font-size: 24pt;
+}
+
+a:hover {
+  color: rgb(0, 65, 65);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 65, 65);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+dl {
+  text-align: center;
+}
+dt {
+  font-size: 24pt;
+  font-weight: bold;
+}
+dd {
+  margin-inline: unset;
+  font-size: 16pt;
+}
+dd ul {
+  list-style: none;
+  padding-left: 0;
+}
