@@ -1,0 +1,25 @@
+<header>
+  <h1>Please sign up for an account.</h1>
+</header>
+<article>
+  <form action="/signup" method="POST" id="signup-form">
+    <label for="username">
+      Username:
+    </label>
+    <input id="username" type="text" name="username" placeholder="Username" />
+    <label for="password">
+      Password:
+    </label>
+    <input
+      id="password"
+      type="password"
+      name="password"
+      placeholder="Password"
+    />
+    <button type="submit">Submit</button>
+  </form>
+  <a href="/">Already have an account? Click here to log-in</a>
+  {{#if error}}
+    <p class="error">Error: {{error}}</p>
+  {{/if}}
+</article>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TV Maze Show Finder</title>
+    <!-- <link rel="stylesheet" href="/public/style.css" /> -->
+  </head>
+  <body>
+    <main>
+
+      <header>
+        <h1>TV Maze Show Finder</h1>
+      </header>
+
+      <form id = "searchForm">
+        <label for="search_term">Please enter a search term</label>
+        <input
+          id="search_term"
+          type="text"
+          placeholder="Ex: The Office"
+        />
+        <button type="submit">Submit</button>
+      </form>
+
+      <ul id="showList" >
+          <!-- Each show goes in here -->
+      </ul>
+
+      <div id="show" hidden></div>
+
+      <a href="/" id="homeLink" hidden>Back to All Shows</a>
+    </main>
+
+    <footer>
+      <h2>Eric Rudzin</h1>
+      <h2>10447752</h1>
+      <h2>Created for CS-546 during Spring 2022</p>
+    </footer>
+
+		<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+		<script src='/public/ajax_requests.js'></script>
+  </body>
+</html>
